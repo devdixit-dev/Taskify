@@ -2,7 +2,7 @@ import { CheckCircle, ListTodo } from "lucide-react";
 
 const UserDashboard = () => (
   <div className="p-4 bg-white min-h-screen text-black">
-    <h1 className="text-2xl font-bold mb-6">User Dashboard</h1>
+    <h1 className="text-2xl font-medium mb-6">User Dashboard</h1>
     <div className="grid md:grid-cols-2 gap-6">
       <div className="p-6 border rounded-xl shadow">
         <ListTodo className="mb-2" />

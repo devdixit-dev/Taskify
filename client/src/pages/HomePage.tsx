@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-white text-black max-h-screen flex flex-col items-center justify-center px-4 py-11">
+      <div className="w-[90%] m-auto bg-white text-black min-h-screen flex flex-col items-center justify-center px-4">
         {/* Hero Section */}
         <div className="max-w-6xl w-full grid md:grid-cols-2 items-center text-center gap-10">
           {/* Text Content */}
@@ -16,7 +16,7 @@ const HomePage = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-4xl md:text-5xl font-bold mb-6 mt-10">
               Organize Your Work With Ease
             </h1>
             <p className="text-lg text-gray-700 mb-6">
@@ -49,7 +49,7 @@ const HomePage = () => {
         </div>
 
         {/* Features */}
-        <div className="mt-20 w-full max-w-5xl grid md:grid-cols-2 gap-20">
+        <div className="mt-10 w-full max-w-5xl grid md:grid-cols-2 gap-8 mb-8">
           <motion.div
             whileHover={{ scale: 1.05 }}
             className="p-6 border border-gray-300 hover:cursor-pointer rounded-xl shadow"
